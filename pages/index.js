@@ -10,22 +10,27 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
 
-        <p className='question'>1. Introduce yourself.  What are your hobbies, favourite music, favourite food, and other things about yourself.</p>
-        <h6 className='answer'>I'm Klyde Sangalang. My hobby is playing videogames, my favourite music is classics, and the other things is I like to sleep.</h6>
-        <p className='question'>
-        2. Why did you take up CPE?
-        </p>
-        <h6 className='answer'>
-            In order to learn and process more data processing and to grasp more knowledge about the industry.
-        </h6>
+        <h1 className='answer'>
+            Manifesto for Agile Software Development
+        </h1>
 
         <p className='question'>
-        3.  What career do you see yourself exploring after graduation.
+        We are uncovering better ways of developing
+        software by doing it and helping others do it
+        Through this work we have come to value:
         </p>
 
-        <h6 className='answer'>
-          I see myself as an developer and exploring the depths of data processing.
-        </h6>
+        <h3 className='answer'>
+          Individuals and interactions over processes and tools
+          Working Software over comprehensive documentation
+          Customer collaboration over contract negotiation
+          Responding to change over following a plan
+        </h3>
+
+        <p className='question'>
+          That is, while there is value in the items on
+          the right, we value the items on the left more.
+        </p>
 
       </section>
     </Layout>
